@@ -1,0 +1,8 @@
+Uputstvo za korišćenje klijentske aplikacije:
+
+Na klijentskoj aplikaciji moguće je izabrati jednu od tri opcije za čitanje teksta - konzolu, fajl ili bazu, unosom odgovarajućeg broja.
+Ukoliko se odabere konzola, nakon toga je potrebno uneti tekst, i, ukoliko je završen unos, dva puta uneti novi red u konzoli.
+Ukoliko se odabere fajl, potrebno je uneti validnu putanju do fajla za čitanje.
+Ukoliko se odabere baza, potrebno je uneti ID record-a u bazi koji je potrebno pročitati. Baza je SQLite ("text_models.db") i nalazi se u istom folderu gde i klijentska aplikacija. Ima uneta tri record-a koje je moguće pročitati.
+Nakon toga, ukoliko su odabrane validne opcije i validna putanja do fajla/postojeći ID u bazi, serverska aplikacija će vratiti broj reči u pročitanom tekstu.
+U suprotnom, ispisaće se zbog čega nije bilo moguće pročitati tekst.
